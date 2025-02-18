@@ -1,0 +1,75 @@
+/* Fondo de la página con imagen */
+body {
+    background: url('Imagenes/barco.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Contenedor del formulario */
+.container {
+    background: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+
+/* Estilos para los inputs */
+.box {
+    position: relative;
+    margin: 20px 0;
+}
+
+.box input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Efecto neón en los bordes de los inputs */
+.box input:focus {
+    border-color: white;
+    box-shadow: 0 0 10px #0051ff, 0 0 20px #0004ff, 0 0 40px #1900ff;
+}
+
+/* Botón con efecto neón */
+.bn5 {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 0.3s;
+    background: black;
+}
+
+/* Efecto neón en el botón */
+.bn5:hover {
+    box-shadow: 0 0 10px #2704f0, 0 0 20px #4404f7, 0 0 40px #1303f5;
+    border-color: #1100ff;
+}
+
+/* Efecto en los links */
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0817f3;
+}
